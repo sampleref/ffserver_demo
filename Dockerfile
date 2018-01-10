@@ -11,7 +11,7 @@ COPY ./ffserver_thermal.conf /ffserver_thermal.conf
 COPY ./testvideo720paudio.mp4 /testvideo720paudio.mp4
 COPY ./thermalvideo720paudio.mp4 /thermalvideo720paudio.mp4
 
-COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY ./supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 EXPOSE 554
 EXPOSE 555
